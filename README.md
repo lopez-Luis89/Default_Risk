@@ -22,3 +22,19 @@ Feature Engineering:
 Justification:
 
 - The process of understanding the data, visualizing key relationships, handling data quality issues such as outliers, and preparing the data for modeling are key components to buiding any predictive model. By exploring the dataset thoroughly and visualizing different aspects of the data, the analysis can uncover important patterns and relationships that will inform the modeling process. Handling outliers ensures that the model is robust as well as properly splitting and training the data, along with it's corresponding hyperparameter tuning, class imbalnce and standardization will be fundamental for the perfromance of our model.
+
+# Libraries
+
+- import pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import seaborn as sns
+- from sklearn.preprocessing import StandardScaler
+- from sklearn.model_selection import train_test_split, RandomizedSearchCV , GridSearchCV
+- from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, f1_score, recall_score, precision_score, roc_auc_score, accuracy_score
+- from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier
+- from xgboost import XGBClassifier
+- from sklearn.decomposition import PCA
+- import lightgbm as lgb
+- from imblearn.over_sampling import SMOTE
+
